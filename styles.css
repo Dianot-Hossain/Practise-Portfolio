@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -36,4 +37,28 @@ section {
 .top-part {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.divider {
+    width: 50%;
+    padding-right: 5%;
+}
+
+.divider-image img {
+    width: 85%;
+    padding-left: 10%;
+}
+
+.Second-link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(165, 7, 7), rgba(247, 4, 4, 0.589));
+    padding: 10px 40px;
+    color: black;
+    font-weight: 700;
+}
+
+.middle-part {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right
 }
