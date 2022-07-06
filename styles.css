@@ -1,6 +1,33 @@
-body{
+body {
     font-family: 'Roboto Slab', serif;
 }
-h1{
+
+h1 {
     font-size: 60px;
+}
+
+.highlights {
+    color: rgba(209, 8, 8, 0.83);
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 85%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(204, 7, 7), rgb(238, 42, 81));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
 }
